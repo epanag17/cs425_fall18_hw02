@@ -1,0 +1,156 @@
+
+		body{
+			font-family: 'Open Sans', sans-serif;
+		}
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+			position: sticky;
+			top: 0;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: #111;
+		}
+		
+		.container_banner {
+			position: relative;
+			height: 50vh;
+			background-image: url("banner_image_1.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			filter: opacity(.7);
+			}
+			
+		
+		.banner {
+			position: absolute;
+			left: 0;
+			top: 50%;
+			width: 100%;
+			text-align: center;
+			color: white;	
+			}
+			
+		.container_section{
+			margin: 0 auto;
+			line-height: 1.6;
+			/*width:36em;
+			max-width:100%;*/
+			text-align: center;
+		}
+		
+		h1, h2{
+			
+			font-family: 'Merriweather', serif;
+		}
+		
+		h2{
+			color:blue;
+		}
+		
+		p{
+			font-family: 'Open Sans', sans-serif;
+		}
+		
+		hr{
+			text-align:center;
+			margin:0 auto;
+			width:75%;
+		}
+		
+		
+		
+		div.gallery img{
+			width:100%;
+			height:auto;
+			float:left;
+		}
+		
+		div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+	.footer {
+		background-color: #333;
+		color: #ffffff;
+		text-align: center;
+		padding: 15px;
+		width:100%;
+	}
+	
+	.footer i{
+		margin:10px;
+	}
+	
+	.footer i:hover{
+		color:blue;
+	}
+	
+	.top_arrow{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 0%;
+		position: -webkit-sticky;
+    position: sticky;
+    top: 90%;
+	}
+		
+		
+		* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+		
+		.row{
+			clear:both;
+		}
+		
+		/* For mobile phones: */
+		[class*="col-"] {
+			width: 100%;
+		}
+		
+		@media only screen and (min-width: 768px) {
+			/* For desktop: */
+			.col-1 {width: 8.33%;}
+			.col-2 {width: 16.66%;}
+			.col-3 {width: 25%;}
+			.col-4 {width: 33.33%;}
+			.col-5 {width: 41.66%;}
+			.col-6 {width: 50%;}
+			.col-7 {width: 58.33%;}
+			.col-8 {width: 66.66%;}
+			.col-9 {width: 75%;}
+			.col-10 {width: 83.33%;}
+			.col-11 {width: 91.66%;}
+			.col-12 {width: 100%;}
+		}
+	
